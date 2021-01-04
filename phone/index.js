@@ -1,4 +1,4 @@
-const PROVINCES = require('./provinces');
+const PROVINCES = require('./provinces.json');
 
 const TYPES = { landline: 'LANDLINE', mobile: 'MOBILE' };
 const MobileRegex = /^(((\+|00)?98)|0)?9\d{9}$/g;
